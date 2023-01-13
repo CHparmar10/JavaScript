@@ -26,6 +26,7 @@ function countdown(){
 function formateTime(time){
     return time < 10 ? `0${time}` : time;
 }
+
 // initial call
 countdown();
 
